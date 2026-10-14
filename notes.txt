@@ -1,0 +1,26 @@
+Theme: Canela
+
+index.html
+	- Best picture of her
+	- Time she lived
+	- Meaning of her name
+	- Breed
+contact.html
+	- Just me
+adoption.html
+	- Mex-can pets
+	- Early life
+travels.html
+	- boating
+	- hiking
+	- etc.
+quirks.html
+	- Lying down on stuff
+	- Negotiating
+form.html
+	- Message submission
+
+style.css
+script.js
+/images/
+	

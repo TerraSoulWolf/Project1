@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adoption.html">Adoption</a></li>
+            <li><a href="quirks.html">Quirks</a></li>
+            <li><a href="travels.html">Travels</a></li>
+            <li><a href="form.html"><b>Form</b></a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!--Main Image Container-->
+        <div class="container">
+            <img src="images/form.jpg" alt="Boat-baby" style="width: 100%;">
+            <div class="overImage">Form</div>
+            <div class="overImage" style="top: 40%; font-size: 50px;">Leave a comment!</div>
+        </div>
+
+        <!--Details Area-->
+        <div class="details">
+            <img src="images/sit.jpg" alt="Sit">
+
+            <div class="text">
+                <h1>Talk to Canela!</h1>
+
+                <form id="commentForm">
+                    <label for="name">Your name:</label><br>
+                    <input type="text" name="name" size="50"><br>
+                    <label for="comment">Your comment:</label><br>
+                    <input type="text" name="comment" size="50"><br>
+                    <button type="submit">Submit</button>
+                </form>
+
+                <br>
+
+                <p id="result"></p>
+                <p id="dog"></p>
+            </div>
+        </div>
+    </body>
+</html>

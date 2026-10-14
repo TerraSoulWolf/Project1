@@ -1,0 +1,81 @@
+/* Main Elements */
+body {
+    font-family: Georgia, serif;
+    margin: 0%;
+    border: 10px groove blanchedalmond;
+    background-image: url("images/background.png");
+    background-size: cover;
+}
+
+a {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+/* List Elements */
+ol li {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #D2691E;
+    display: flex;
+    justify-content: center;
+}
+
+ul li a {
+    font-family: 'Trebuchet MS';
+    display: block;
+    padding: 10px 40px;
+}
+
+form {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+/* Classes */
+.container {
+    position: relative;
+}
+
+.overImage {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 125px;
+    color: white;
+    text-shadow: 2px 2px #D2691E;
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.details img {
+    width: 40%;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
